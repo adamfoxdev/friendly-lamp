@@ -1,6 +1,6 @@
 # SevenDays – a 7 Days to Die–style survival game in C#
 
-A turn-based survival game (.NET 8) with a Godot 4 front-end with the core 7 Days to Die loop:
+A turn-based survival game in Godot 4 (C#, .NET 8) with the core 7 Days to Die loop:
 
 - **Scavenge** – harvest trees and rocks, loot crates in ruined buildings, drink from water.
 - **Craft** – clubs, spears, stone axes, bandages, wood/stone walls and spike traps.
@@ -26,8 +26,8 @@ Run the tests with `dotnet test`.
 | X | Dismantle one of your blocks |
 | U | Eat / drink / bandage |
 | `.` / Space | Wait a turn (10 in-game minutes) |
-| Q / Esc | Quit |
-| R | Restart (after death, Godot) |
+| Esc | Quit |
+| R | Restart (after death) |
 
 In menus, press the number of an entry; Esc cancels.
 
